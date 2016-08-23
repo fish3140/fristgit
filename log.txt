@@ -1,0 +1,346 @@
+x000000d40000
+Bad eraseblock 107 at 0x000000d60000
+Bad eraseblock 108 at 0x000000d80000
+Bad eraseblock 109 at 0x000000da0000
+Bad eraseblock 110 at 0x000000dc0000
+Bad eraseblock 111 at 0x000000de0000
+Bad eraseblock 112 at 0x000000e00000
+Bad eraseblock 113 at 0x000000e20000
+Bad eraseblock 114 at 0x000000e40000
+Bad eraseblock 115 at 0x000000e60000
+Bad eraseblock 116 at 0x000000e80000
+Bad eraseblock 117 at 0x000000ea0000
+Bad eraseblock 118 at 0x000000ec0000
+Bad eraseblock 119 at 0x000000ee0000
+Bad eraseblock 120 at 0x000000f00000
+Bad eraseblock 121 at 0x000000f20000
+Bad eraseblock 122 at 0x000000f40000
+Bad eraseblock 123 at 0x000000f60000
+Bad eraseblock 124 at 0x000000f80000
+Bad eraseblock 125 at 0x000000fa0000
+Bad eraseblock 126 at 0x000000fc0000
+Bad eraseblock 127 at 0x000000fe0000
+Bad eraseblock 128 at 0x000001000000
+Bad eraseblock 129 at 0x000001020000
+Bad eraseblock 130 at 0x000001040000
+Bad eraseblock 131 at 0x000001060000
+Bad eraseblock 132 at 0x000001080000
+Bad eraseblock 133 at 0x0000010a0000
+Bad eraseblock 134 at 0x0000010c0000
+Bad eraseblock 135 at 0x0000010e0000
+Bad eraseblock 136 at 0x000001100000
+Bad eraseblock 137 at 0x000001120000
+Bad eraseblock 138 at 0x000001140000
+Bad eraseblock 139 at 0x000001160000
+Bad eraseblock 140 at 0x000001180000
+Bad eraseblock 141 at 0x0000011a0000
+Bad eraseblock 142 at 0x0000011c0000
+Bad eraseblock 143 at 0x0000011e0000
+Bad eraseblock 144 at 0x000001200000
+Bad eraseblock 145 at 0x000001220000
+Bad eraseblock 146 at 0x000001240000
+Bad eraseblock 147 at 0x000001260000
+Bad eraseblock 148 at 0x000001280000
+Bad eraseblock 149 at 0x0000012a0000
+Bad eraseblock 150 at 0x0000012c0000
+Bad eraseblock 151 at 0x0000012e0000
+Bad eraseblock 152 at 0x000001300000
+Bad eraseblock 153 at 0x000001320000
+Bad eraseblock 154 at 0x000001340000
+Bad eraseblock 155 at 0x000001360000
+Bad eraseblock 156 at 0x000001380000
+Bad eraseblock 157 at 0x0000013a0000
+Bad eraseblock 158 at 0x0000013c0000
+Bad eraseblock 159 at 0x0000013e0000
+Bad eraseblock 160 at 0x000001400000
+Bad eraseblock 161 at 0x000001420000
+Bad eraseblock 162 at 0x000001440000
+Bad eraseblock 163 at 0x000001460000
+Bad eraseblock 164 at 0x000001480000
+Bad eraseblock 165 at 0x0000014a0000
+Bad eraseblock 166 at 0x0000014c0000
+Bad eraseblock 167 at 0x0000014e0000
+Bad eraseblock 168 at 0x000001500000
+Bad eraseblock 169 at 0x000001520000
+Bad eraseblock 170 at 0x000001540000
+Bad eraseblock 1362 at 0x00000aa40000
+Bad eraseblock 1786 at 0x00000df40000
+Creating 5 MTD partitions on "NAND 256MiB 3,3V 8-bit":
+0x000000000000-0x000000040000 : "supervivi"
+0x000000040000-0x000000060000 : "param"
+0x000000060000-0x000000560000 : "Kernel"
+0x000000560000-0x000040560000 : "root"
+mtd: partition "root" extends beyond the end of device "NAND 256MiB 3,3V 8-bit" -- size truncated to 0xfaa0000
+0x000000000000-0x000040000000 : "nand"
+mtd: partition "nand" extends beyond the end of device "NAND 256MiB 3,3V 8-bit" -- size truncated to 0x10000000
+dm9000 Ethernet Driver, V1.31
+eth0: dm9000e at c4814300,c4818304 IRQ 51 MAC: 08:90:90:90:90:90 (chip)
+ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+s3c2410-ohci s3c2410-ohci: S3C24XX OHCI
+s3c2410-ohci s3c2410-ohci: new USB bus registered, assigned bus number 1
+s3c2410-ohci s3c2410-ohci: irq 42, io mem 0x49000000
+usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb1: Product: S3C24XX OHCI
+usb usb1: Manufacturer: Linux 2.6.32.2-FriendlyARM ohci_hcd
+usb usb1: SerialNumber: s3c24xx
+usb usb1: configuration #1 chosen from 1 choice
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 2 ports detected
+Initializing USB Mass Storage driver...
+usbcore: registered new interface driver usb-storage
+USB Mass Storage support registered.
+usbcore: registered new interface driver ums-alauda
+usbcore: registered new interface driver ums-cypress
+usbcore: registered new interface driver ums-datafab
+usbcore: registered new interface driver ums-freecom
+usbcore: registered new interface driver ums-isd200
+usbcore: registered new interface driver ums-jumpshot
+usbcore: registered new interface driver ums-karma
+usbcore: registered new interface driver ums-onetouch
+usbcore: registered new interface driver ums-sddr09
+usbcore: registered new interface driver ums-sddr55
+usbcore: registered new interface driver ums-usbat
+usbcore: registered new interface driver usbserial
+USB Serial support registered for generic
+usbcore: registered new interface driver usbserial_generic
+usbserial: USB Serial Driver core
+USB Serial support registered for aircable
+usbcore: registered new interface driver aircable
+USB Serial support registered for ark3116
+usbcore: registered new interface driver ark3116
+USB Serial support registered for Belkin / Peracom / GoHubs USB Serial Adapter
+usbcore: registered new interface driver belkin
+belkin_sa: v1.2:USB Belkin Serial converter driver
+USB Serial support registered for ch341-uart
+usbcore: registered new interface driver ch341
+USB Serial support registered for cp210x
+usbcore: registered new interface driver cp210x
+cp210x: v0.09:Silicon Labs CP210x RS232 serial adaptor driver
+USB Serial support registered for Reiner SCT Cyberjack USB card reader
+usbcore: registered new interface driver cyberjack
+cyberjack: v1.01 Matthias Bruestle
+cyberjack: REINER SCT cyberJack pinpad/e-com USB Chipcard Reader Driver
+USB Serial support registered for DeLorme Earthmate USB
+USB Serial support registered for HID->COM RS232 Adapter
+USB Serial support registered for Nokia CA-42 V2 Adapter
+usbcore: registered new interface driver cypress
+cypress_m8: v1.09:Cypress USB to Serial Driver
+USB Serial support registered for Digi 2 port USB adapter
+USB Serial support registered for Digi 4 port USB adapter
+usbcore: registered new interface driver digi_acceleport
+digi_acceleport: v1.80.1.2:Digi AccelePort USB-2/USB-4 Serial Converter driver
+USB Serial support registered for Edgeport 2 port adapter
+USB Serial support registered for Edgeport 4 port adapter
+USB Serial support registered for Edgeport 8 port adapter
+USB Serial support registered for EPiC device
+usbcore: registered new interface driver io_edgeport
+io_edgeport: v2.7:Edgeport USB Serial Driver
+USB Serial support registered for Edgeport TI 1 port adapter
+USB Serial support registered for Edgeport TI 2 port adapter
+usbcore: registered new interface driver io_ti
+io_ti: v0.7mode043006:Edgeport USB Serial Driver
+USB Serial support registered for empeg
+usbcore: registered new interface driver empeg
+empeg: v1.2:USB Empeg Mark I/II Driver
+USB Serial support registered for FTDI USB Serial Device
+usbcore: registered new interface driver ftdi_sio
+ftdi_sio: v1.5.0:USB FTDI Serial Converters Driver
+USB Serial support registered for funsoft
+usbcore: registered new interface driver funsoft
+USB Serial support registered for Garmin GPS usb/tty
+usbcore: registered new interface driver garmin_gps
+garmin_gps: v0.33:garmin gps driver
+USB Serial support registered for hp4X
+usbcore: registered new interface driver hp4X
+hp4x: v1.00:HP4x (48/49) Generic Serial driver
+USB Serial support registered for PocketPC PDA
+usbcore: registered new interface driver ipaq
+ipaq: v0.5:USB PocketPC PDA driver
+USB Serial support registered for IPWireless converter
+usbcore: registered new interface driver ipwtty
+ipw: v0.3:IPWireless tty driver
+USB Serial support registered for IR Dongle
+usbcore: registered new interface driver ir-usb
+ir_usb: v0.4:USB IR Dongle driver
+USB Serial support registered for iuu_phoenix
+usbcore: registered new interface driver iuu_phoenix
+iuu_phoenix: v0.11:Infinity USB Unlimited Phoenix driver
+USB Serial support registered for Keyspan - (without firmware)
+USB Serial support registered for Keyspan 1 port adapter
+USB Serial support registered for Keyspan 2 port adapter
+USB Serial support registered for Keyspan 4 port adapter
+usbcore: registered new interface driver keyspan
+keyspan: v1.1.5:Keyspan USB to Serial Converter Driver
+USB Serial support registered for Keyspan PDA
+USB Serial support registered for Keyspan PDA - (prerenumeration)
+USB Serial support registered for Xircom / Entregra PGS - (prerenumeration)
+usbcore: registered new interface driver keyspan_pda
+keyspan_pda: v1.1:USB Keyspan PDA Converter driver
+USB Serial support registered for KL5KUSB105D / PalmConnect
+usbcore: registered new interface driver kl5kusb105d
+kl5kusb105: v0.3a:KLSI KL5KUSB105 chipset USB->Serial Converter driver
+USB Serial support registered for KOBIL USB smart card terminal
+usbcore: registered new interface driver kobil
+kobil_sct: 21/05/2004:KOBIL USB Smart Card Terminal Driver (experimental)
+USB Serial support registered for MCT U232
+usbcore: registered new interface driver mct_u232
+mct_u232: z2.1:Magic Control Technology USB-RS232 converter driver
+USB Serial support registered for Moschip 2 port adapter
+mos7720: 1.0.0.4F:Moschip USB Serial Driver
+usbcore: registered new interface driver moschip7720
+USB Serial support registered for Moschip 7840/7820 USB Serial Driver
+mos7840: 1.3.2:Moschip 7840/7820 USB Serial Driver
+usbcore: registered new interface driver mos7840
+USB Serial support registered for moto-modem
+usbcore: registered new interface driver moto-modem
+USB Serial support registered for navman
+usbcore: registered new interface driver navman
+USB Serial support registered for ZyXEL - omni.net lcd plus usb
+usbcore: registered new interface driver omninet
+omninet: v1.1:USB ZyXEL omni.net LCD PLUS Driver
+USB Serial support registered for opticon
+usbcore: registered new interface driver opticon
+USB Serial support registered for GSM modem (1-port)
+usbcore: registered new interface driver option
+option: v0.7.2:USB Driver for GSM modems
+USB Serial support registered for oti6858
+usbcore: registered new interface driver oti6858
+USB Serial support registered for pl2303
+usbcore: registered new interface driver pl2303
+pl2303: Prolific PL2303 USB to serial adaptor driver
+USB Serial support registered for Qualcomm USB modem
+usbcore: registered new interface driver qcserial
+safe_serial: v0.0b:USB Safe Encapsulated Serial
+USB Serial support registered for safe_serial
+usbcore: registered new interface driver safe_serial
+USB Serial support registered for siemens_mpi
+usbcore: registered new interface driver siemens_mpi
+Driver for Siemens USB/MPI adapter
+Version 0.1 09/26/2005 Thomas Hergenhahn@web.de http://libnodave.sf.net
+USB Serial support registered for Sierra USB modem
+usbcore: registered new interface driver sierra
+sierra: v.1.3.8:USB Driver for Sierra Wireless USB modems
+USB Serial support registered for SPCP8x5
+usbcore: registered new interface driver spcp8x5
+spcp8x5: v0.04:SPCP8x5 USB to serial adaptor driver
+USB Serial support registered for symbol
+usbcore: registered new interface driver symbol
+USB Serial support registered for TI USB 3410 1 port adapter
+USB Serial support registered for TI USB 5052 2 port adapter
+usbcore: registered new interface driver ti_usb_3410_5052
+ti_usb_3410_5052: v0.9:TI USB 3410/5052 Serial Driver
+USB Serial support registered for Handspring Visor / Palm OS
+USB Serial support registered for Sony Clie 3.5
+USB Serial support registered for Sony Clie 5.0
+usbcore: registered new interface driver visor
+visor: USB HandSpring Visor / Palm OS driver
+USB Serial support registered for Connect Tech - WhiteHEAT - (prerenumeration)
+USB Serial support registered for Connect Tech - WhiteHEAT
+usbcore: registered new interface driver whiteheat
+whiteheat: v2.0:USB ConnectTech WhiteHEAT driver
+mice: PS/2 mouse device common for all mice
+s3c2410 TouchScreen successfully loaded
+input: s3c2410 TouchScreen as /devices/virtual/input/input0
+S3C24XX RTC, (c) 2004,2006 Simtec Electronics
+s3c2410-rtc s3c2410-rtc: rtc disabled, re-enabling
+s3c2410-rtc s3c2410-rtc: rtc core: registered s3c as rtc0
+i2c /dev entries driver
+Linux video capture interface: v2.00
+gspca: main v2.7.0 registered
+usbcore: registered new interface driver conex
+conex: registered
+usbcore: registered new interface driver etoms
+etoms: registered
+usbcore: registered new interface driver finepix
+finepix: registered
+usbcore: registered new interface driver jeilinj
+jeilinj: registered
+usbcore: registered new interface driver mars
+mars: registered
+usbcore: registered new interface driver mr97310a
+mr97310a: registered
+usbcore: registered new interface driver ov519
+ov519: registered
+usbcore: registered new interface driver ov534
+ov534: registered
+usbcore: registered new interface driver pac207
+pac207: registered
+usbcore: registered new interface driver pac7311
+pac7311: registered
+usbcore: registered new interface driver sn9c20x
+sn9c20x: registered
+usbcore: registered new interface driver sonixb
+sonixb: registered
+usbcore: registered new interface driver sonixj
+sonixj: registered
+usbcore: registered new interface driver spca500
+spca500: registered
+usbcore: registered new interface driver spca501
+spca501: registered
+usbcore: registered new interface driver spca505
+spca505: registered
+usbcore: registered new interface driver spca506
+spca506: registered
+usbcore: registered new interface driver spca508
+spca508: registered
+usbcore: registered new interface driver spca561
+spca561: registered
+usbcore: registered new interface driver sq905
+sq905: registered
+usbcore: registered new interface driver sq905c
+sq905c: registered
+usbcore: registered new interface driver sunplus
+sunplus: registered
+usbcore: registered new interface driver stk014
+stk014: registered
+usbcore: registered new interface driver t613
+t613: registered
+usbcore: registered new interface driver tv8532
+tv8532: registered
+usbcore: registered new interface driver vc032x
+vc032x: registered
+usbcore: registered new interface driver zc3xx
+zc3xx: registered
+usbcore: registered new interface driver ALi m5602
+ALi m5602: registered
+usbcore: registered new interface driver STV06xx
+STV06xx: registered
+gspca_gl860: driver startup - version 0.9d10
+usbcore: registered new interface driver gspca_gl860
+gspca_gl860: driver registered
+usbcore: registered new interface driver uvcvideo
+USB Video Class driver (v0.1.0)
+initializing s3c2440 camera interface......
+s3c2440 camif init done
+Loading OV9650 driver.........
+SCCB address 0x60, manufacture ID 0xFFFF, expect 0x7FA2
+SCCB address 0x60, manufacture ID 0xFFFF, expect 0x7FA2
+No OV9650 found!!!
+S3C2410 Watchdog Timer, (c) 2004 Simtec Electronics
+s3c2410-wdt s3c2410-wdt: watchdog inactive, reset disabled, irq enabled
+s3c-sdi s3c2440-sdi: powered down.
+s3c-sdi s3c2440-sdi: mmc0 - using pio, sw SDIO IRQ
+usbcore: registered new interface driver usbhid
+usbhid: v2.6:USB HID core driver
+Advanced Linux Sound Architecture Driver Version 1.0.21.
+No device for DAI UDA134X
+No device for DAI s3c24xx-i2s
+S3C24XX_UDA134X SoC Audio driver
+UDA134X SoC Audio Codec
+asoc: UDA134X <-> s3c24xx-i2s mapping ok
+ALSA device list:
+  #0: S3C24XX_UDA134X (UDA134X)
+TCP cubic registered
+NET: Registered protocol family 17
+s3c2410-rtc s3c2410-rtc: hctosys: invalid date/time
+eth0: link down
+IP-Config: Complete:
+     device=eth0, addr=192.168.1.6, mask=255.255.255.0, gw=192.168.1.6,
+     host=SKY2440, domain=, nis-domain=embedsky.net,
+     bootserver=192.168.1.8, rootserver=192.168.1.8, rootpath=
+Looking up port of RPC 100003/2 on 192.168.1.8
+eth0: link up, 100Mbps, full-duplex, lpa 0xCDE1
+Looking up port of RPC 100005/1 on 192.168.1.8
+VFS: Mounted root (nfs filesystem) on device 0:11.
+Freeing init memory: 160K
