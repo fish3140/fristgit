@@ -1,0 +1,33 @@
+android源码下载：
+由于repo被墙，已有repo源码
+mkdir ~/bin
+
+PATH=~/bin:$PATH
+
+curl http://git-repo.googlecode.com/files/repo-1.13 > ~/bin/repo（下载时发现有repo-1.18）
+
+chmod a + x ~ /bin/ repo
+mkdir WORKING_DIRECTORY（建立源码文件夹）
+
+cd WORKING_DIRECTORY
+
+3、下载源码：
+
+repo init -u git://codeaurora.org/platform/manifest.git（下载最新源码）
+
+repo sync
+
+repo init -u git://codeaurora.org/platform/manifest.git -b android-4.1.1_r1   （可选）
+
+repo sync（注：可以写一个脚本网络断开后自动连接下载）
+
+4、repo sync脚本（在源码目录下建立脚本：vi down.sh）：
+
+#!/bin/sh 
+repo sync -j16 
+while [ $? -ne 0 ] 
+do 
+repo sync -j16 
+done
+
+执行下载命令：sh down.sh
